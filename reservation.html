@@ -1,0 +1,128 @@
+
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Noticia+Text&family=Shrikhand&family=Montserrat:wght@300&family=Lora&display=swap');
+        </style>
+        <title>
+            Gujarati Jalso | Reservation
+        </title>
+        <link rel = "icon" href = "pictures/title.jpg" type = "image/x-icon">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav>
+            <div class="logo">
+                <p class="logo-p">ગુજરાતી જલસો</p>
+           <!--     <img src="pictures/logo.jpg">   -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li class="submenu"><a href="">MENU</a>
+                    <ul class="nav-submenu">
+                        <li class="nav-submenu-items"><a href="maincourse.html">MainCourse</a></li>
+                        <li class="nav-dropdown-items"><a href="desserts.html">Desserts</a></li>
+                    </ul>                
+                </li>
+
+                <li><a href="aboutpage.html">ABOUT US</a></li>
+                <li><a href="reviewpage.html">REVIEWS</a></li>
+                <li><a href="reservation.html">RESERVATION</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+
+            </div>
+        </nav>
+        <!--END NAVBAR-->
+        <!--MAIN BODY-->
+        <form name = "f1" action="I.php" method="POST">
+
+            <h1><center>RESERVE     YOUR        TABLE</center></h1>
+            
+            <pre><center><h2>
+            FULL NAME : <INPUT TYPE ="TEXT" NAME="fullname" value="" placeholder="Enter Your Full Name" size="20" required><br>
+
+            NO. OF PEOPLE : <INPUT TYPE ="number" NAME="no" value="" placeholder="Enter No Of Members Coming" size="20" required><br>
+            
+            DATE & TIME  : <input type="datetime-local" name="date" value="" placeholder="Please Mention The Date When You Are Coming" required><BR>
+
+            PHONE : <input type="number" name="phone" value="" placeholder="Enter Your Mobile Number" required><BR>
+
+            ANY OTHER REQUIREMENT : 
+            <textarea name="AOR" rows="10" cols="15">  
+               
+            </textarea>
+
+        </h2></center></pre>
+
+    <h2><center>
+        <input type="submit" name="sub" value="SUBMIT">   <input type="reset" name="reset" value="RESET" >   <input type="button" name="cancel" value="CANCEL">
+</h2></center>
+            
+        </form>
+        <!--END MAIN BODY-->
+        <!--FOOTER-->
+        <footer>
+            <div class="footer">
+                <div class="inner-footer">
+<!-----------Column 1 inside footer---------------->
+                    <div class="footer-items">
+                        <h1>ગુજરાતી જલસો</h1>
+                        <p>Welcome to the luxury.<br> Our family gets a little bigger every time you come by.<br> Food, Folks and Fun all together.<br >Serving customers since 1999.</p>
+                    </div>
+<!-----------Column 2 inside footer---------------->   
+                     <div class="footer-items">
+                         <h2>Other Branches:</h2>
+                         <div class="border"></div>
+                         <br>
+                         <p>Ahmedabad<br>
+                             Surat<br>
+                             Mehsana<br>
+                             Amreli<br>
+                             Porbandar<br></p>
+                    </div>
+<!-----------Column 3 inside footer---------------->  
+                     <div class="footer-items">
+                        <h2>Quick Links:</h2>
+                         <div class="border"></div>
+                         <ul>
+                             <a href="index.html"><li>Homepage</li></a>
+                             <a href="maincourse.html"><li>MainCourse</li></a>
+                             <a href="desserts.html"><li>Desserts</li></a>
+                             <a href="aboutpage.html"><li>About Us</li></a>
+                             <a href="reviewpage.html"><li>Customer Reviews</li></a>
+                         </ul>
+                    </div>
+<!-----------Column 4 inside footer---------------->
+                     <div class="footer-items">
+                        <h2>Contact Us</h2>
+                        <div class="border"></div>
+                         <ul>
+                             <li><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;201-abc, opp. radhe petrol pump, Rajkot</li>
+                             <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;0281-12345678</li>
+                             <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;support@gujaratijalso.com</li>
+                         </ul>
+                         <div class="social-media">
+                             <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                             <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                             <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                         </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    Copyright &copy; Gujarati Jalso 2019. &nbsp; &nbsp; All rights reserved.             
+                </div>
+            </div>
+        </footer>
+        <!--END FOOTER-->
+        <script src="script.js"></script>
+    </body>
+</HTML>
