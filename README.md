@@ -1,9 +1,7 @@
 # Gujarati Jalso Website
 
 
-Steps for opening the link.
-1. Go to any browser.
-2. Copy this link and paste it over there.
+Download the whole project.
+Open the index.html file and start navigating.
 
-
-[https://97531086420.000webhostapp.com/index.html](url)
+Thank you.
