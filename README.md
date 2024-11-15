@@ -1,7 +1,4 @@
 # Gujarati Jalso Website
 
-
-Download the whole project.
-Open the index.html file and start navigating.
-
-Thank you.
+Open the below-mentioned link
+https://smit707.github.io/Gujarati-Jalso/
