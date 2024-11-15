@@ -1,4 +1,4 @@
 # Gujarati Jalso Website
 
-Open the below-mentioned link
+Link - 
 https://smit707.github.io/Gujarati-Jalso/
